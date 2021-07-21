@@ -1,0 +1,45 @@
+{
+  "name": "use-mounted-async",
+  "version": "0.1.0",
+  "description": "Reusable hook allowing to run async handlers with automatic cancellation upon component unmount",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --maxWorkers 2",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdziekon/react-use-mounted-async.git"
+  },
+  "keywords": [
+    "react",
+    "react-hook",
+    "react-hooks",
+    "hook"
+  ],
+  "author": "Michał Dziekoński <michal.dziekonski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdziekon/react-use-mounted-async/issues"
+  },
+  "homepage": "https://github.com/mdziekon/react-use-mounted-async#readme",
+  "devDependencies": {
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/react-hooks": "^7.0.1",
+    "@types/jest": "^26.0.24",
+    "@types/react": "^17.0.14",
+    "jest": "^27.0.6",
+    "react": "^17.0.2",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0  || ^17.0.0",
+    "react-dom": "^16.8.0  || ^17.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
